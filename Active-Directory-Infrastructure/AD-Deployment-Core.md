@@ -29,3 +29,21 @@ Project Overview
 # Ticket 3: Administrative Password Override & Governance Enforcement
 * Incident Description: Sales department user account credential lockout / recovery protocol execution.
 * Action Taken: Located user account object `jdoe` within the Sales organizational unit. Initiated a standard administrative password reset protocol bypass, assigned a baseline temporary onboarding passphrase, and enforced corporate security policy controls by toggling the flag: `User must change password at next logon`.
+
+# Network Infrastructure Engineering & Policy Deployment (Day 3 Log)
+
+# Task 1: Cross-Virtual Machine Switching Network Binds
+* >> Staging Actions: Reconfigured network link adapters within the virtualization hypervisor matrix, migrating both the Windows Server 2025 Domain Controller (`10.0.2.15`) and the Windows 11 Workstation client away from general NAT layers onto a unified isolated Internal Network switch named `Corporate-Switch`. 
+* >> Client IP Engineering: Hard-coded a static corporate interface subnet profile on the Windows 11 endpoint client workstation assigning an IP of `10.0.2.50`, a subnet allocation mask of `255.255.255.0`, and manually bound the server link location as the exclusive target authoritative Preferred DNS provider.
+* >> Troubleshooting Logs: Successfully diagnostic traced local packet drops via ICMP ping verifications and administrative namespace queries (`nslookup`).
+
+# Task 2: Active Directory Domain Integration & Token Handshake
+* >> Workstation Deployment: Initialized legacy system parameter assignments (`sysdm.cpl`) on the client container to migrate the node out of default isolated computer Workgroups. 
+* >> Authentication Handshake: Negotiated an encrypted domain registration challenge handshake utilizing explicit target forest path routing parameters (`ENTERPRISE\Administrator`). Pushed the client machine configuration directly into the network directory trees and enforced a full workstation hardware initialization loop.
+* >> Onboarding Validation: Successfully initialized a distinct domain user profile workspace (`atech`) mapped against active directory schemas and validated forced onboarding credential safety requirements.
+
+# Task 3: Group Policy Object (GPO) Deployment & Workspace Hardening
+* >> Infrastructure Rule Architecture: Engineered a customized system governance container profile titled `GPO-Restrict-ControlPanel` natively within the Group Policy Management Console.
+* >> Registry Lockdown Parameter: Configured structural administrative registry system constraints to shift parameter state values for `Prohibit access to Control Panel and PC settings` to an explicit state of **Enabled**.
+* >> Target Delivery Execution: Bound the GPO container layer directly to the departmental Organizational Unit (`OU=IT,OU=Enterprise-HQ`) containing targeted user object definitions.
+* >> Client Verification Matrix: Executed an explicit system policy pull via `gpupdate /force` terminal commands, successfully verifying that the endpoint system dropped access and triggered programmatic cancellation alerts when attempting execution blocks.
