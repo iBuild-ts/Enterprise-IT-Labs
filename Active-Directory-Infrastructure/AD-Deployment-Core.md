@@ -47,3 +47,21 @@ Project Overview
 * >> Registry Lockdown Parameter: Configured structural administrative registry system constraints to shift parameter state values for `Prohibit access to Control Panel and PC settings` to an explicit state of **Enabled**.
 * >> Target Delivery Execution: Bound the GPO container layer directly to the departmental Organizational Unit (`OU=IT,OU=Enterprise-HQ`) containing targeted user object definitions.
 * >> Client Verification Matrix: Executed an explicit system policy pull via `gpupdate /force` terminal commands, successfully verifying that the endpoint system dropped access and triggered programmatic cancellation alerts when attempting execution blocks.
+
+
+# Automated Identity Pipelines & Network Storage Provisioning (Day 4 Log)
+
+# Task 1: Granular Network Storage Architecture & Permissions Hardening
+* >> Storage Matrix Creation: Hard-coded a physical network file storage environment named `CompanyData` directly within the system partition root (`C:\CompanyData`) of the Windows Server Domain Controller.
+* >> Access Control & Governance Hardening:** Implemented a split identity access governance configuration. Exposed general Share Permissions wide to `Everyone` (Full Control) while hard-coding highly restrictive **NTFS Security Permissions** [INDEX]. Disabled system directory inheritance mappings, removed default standard local `Users` strings, and explicitly injected granular **Modify** permissions for the custom global security department group (`SG-Finance-Access`) [INDEX].
+
+# Task 2: PowerShell Multi-Department Identity Automation Pipeline
+* >> Scripted Automation Loop: Designed and natively executed a programmatic workforce deployment loop script inside Windows PowerShell ISE [INDEX]. 
+* >> Database Expansion: Leveraged calculation algorithms (`for` loops and array cycling bounds) to programmatically provision **20 unique employee user account objects** across the active directory network schema [INDEX]. 
+* >> Target Delivery Layout: Distributed accounts (`emp1` through `emp20`) evenly across dedicated target organizational unit paths (`Sales`, `HR`, `IT`, `Finance`), automatically mapping user principal configurations (`@enterprise.local`) and enforcing system safety parameters (`User must change password at next logon`) [INDEX].
+
+# Task 3: Group Policy Network Drive Mapping & Endpoint Enforcement
+* >> Infrastructure Preference Configuration: Engineered a centralized workstation resource distribution policy container titled `GPO-Map-NetworkDrives` inside the Group Policy Management Console [INDEX].
+* >> Remote Path Routing: Configured a native Drive Map preference parameter utilizing **Update** execution mechanics to bind the remote storage network share path (`\\10.0.2.15\CompanyData`) directly onto endpoint file allocation layers [INDEX].
+* >> Workstation Verification Check: Assigned the policy structure directly onto the root forest domain target tree link (`enterprise.local`) [INDEX]. Executed an administrative `gpupdate /force` terminal command on the domain-joined Windows 11 client machine, successfully verifying that the network stack dynamically mounted the storage target under the **`Z:` drive** environment interface [INDEX].
+
