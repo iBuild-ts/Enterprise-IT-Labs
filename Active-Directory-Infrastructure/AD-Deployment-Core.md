@@ -81,4 +81,14 @@ Project Overview
 * >> Portal Management: Accessed advanced cloud directory controls natively via the Microsoft Entra ID Admin Center console hub (`://microsoft.com`) [INDEX].
 * >> Security Defaults Enforcement: Conducted an infrastructure security audit within global tenant properties, programmatically enforcing the activation of **Security Defaults** to **Enabled** [INDEX]. This policy configuration hard-locks modern authentication patterns, completely blocks legacy brute-force authentication streams, and forces automated Multi-Factor Authentication (MFA) application registration enforcement globally across all network identities [INDEX].
 
+# Enterprise Endpoint Governance & Cloud Policy Engineering (Day 7 Log)
+
+# Task 1: MDM Automation Gateway Configuration
+* >> Tenant Initialization: Access the global Microsoft Intune Admin Center control console to configure automatic Mobile Device Management (MDM) enrollment scopes. 
+* >> Scope Optimization: Programmatically shifted the MDM user target framework parameters from 'None' to 'All', guaranteeing immediate cloud certificate onboarding hooks for all system identities.
+
+# Task 2: Advanced Cloud-Native Endpoint Hardening Profile
+* >> Compliance Architecture: Architected an isolated Windows 10/11 system configuration configuration model blueprint titled `GPO-Cloud-WorkplaceHardening` leveraging the native Intune Device Restrictions framework.
+* >> Peripheral Access Governance: Enforced deep kernel-level data protections by hard-coding a strict 'Block' parameter against all Removable Storage devices, immediately neutralizing USB flash drive read/write vectors to block local malicious data exfiltration.
+* >> Fleet Assignment Routing: Linked the resulting device restriction matrices across the absolute global tenant landscape, ensuring automated over-the-air policy pushes to the entire active remote device tree.
 
