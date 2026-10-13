@@ -92,3 +92,18 @@ Project Overview
 * >> Peripheral Access Governance: Enforced deep kernel-level data protections by hard-coding a strict 'Block' parameter against all Removable Storage devices, immediately neutralizing USB flash drive read/write vectors to block local malicious data exfiltration.
 * >> Fleet Assignment Routing: Linked the resulting device restriction matrices across the absolute global tenant landscape, ensuring automated over-the-air policy pushes to the entire active remote device tree.
 
+
+# Automated Cloud Software Distribution & Zero-Trust Compliance Engineering (Day 8 Log)
+
+# Task 1: Line-of-Business (LOB) Silent Software Packaging & Distribution
+* >> Infrastructure Delivery: Bypassed visual store repository synchronization delays by engineering a manual enterprise software delivery workflow within the Microsoft Intune App deployment plane.
+* >> Binary Packaging: Imported a standalone Microsoft Installer (MSI) enterprise architecture package (`GoogleChromeStandaloneEnterprise64.msi`) directly into the secure tenant data container space.
+* >> Deployment Enforcement: Hard-coded the application parameters under a strict 'Required' workforce assignment matrix, forcing automated background, silent installation loops across the entire global device tree without requiring local administrator user privileges.
+
+# Task 2: Endpoint Compliance Architecture & Zero-Trust Parameter Hardening
+* >> Identity Protection Policy: Architected and compiled a comprehensive Windows 10/11 system configuration compliance profile container titled `COMP-Cloud-IdentityBaseline` natively inside the global Intune engine.
+* >> Security Matrix Hardening: Configured ironclad System Security rules enforcing an 8-character minimum password length limitation restricted explicitly to Alphanumeric complexity formats to completely eliminate weak local device PIN sequences.
+* >> Hardware Firewall Verification: Hard-coded strict endpoint network perimeter validations by requiring an active system firewall status check; non-compliant devices immediately trigger penalty-box token drops, terminating real-time corporate file session keys over the web connection.
+
+  
+
