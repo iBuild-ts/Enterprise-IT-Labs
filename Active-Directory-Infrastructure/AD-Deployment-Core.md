@@ -118,3 +118,18 @@ Project Overview
 * >> Frequency & Recovery Windows: Hard-coded a precise daily snapshot execution schedule timed at 11:00 PM W. Central Africa Standard Time to eliminate production bandwidth constraints, pairing it with an ironclad 30-day retention range lifecycle to defend against persistent ransomware vectors.
 * >> Architecture Bypass Integration: Successfully executed an engineering workaround by decoupling the policy from deployment wizard resource locks and deploying the framework standalone directly inside the vault's master schema data rows.
 
+
+
+# Cloud Infrastructure Observability & Real-Time Security Alert Engineering (Day 10 Log)
+
+# Task 1: Telemetry Core Namespace Integration
+* **Governance Calibration:** Investigated and resolved localized core engine namespace platform validation blocks. 
+* **Resource Provider Activation:** Used deep platform directory settings to forcefully register the `microsoft.insights` telemetry cluster at the root subscription layer, unblocking advanced diagnostic infrastructure capabilities across the tenant.
+
+# Task 2: Centralized Notification Infrastructure Configuration
+* >> Action Group Staging: Engineered a multi-channel cloud communication pipeline container designated as `AG-Corporate-ITOps` nested within the unified `RG-Cloud-Infrastructure` parent wrapper group.
+* >> Routing Telemetry Mechanics: Hard-coded dedicated global operational parameters (`ITOpsAlerts`) pairing automated multi-tenant system signals with direct SMS and enterprise email forwarding touchpoints.
+
+# Task 3: Zero-Trust Activity Log Deletion Sentinel Policy
+* >> Alert Rule Construction: Compiled an automated structural activity monitoring policy framework titled `ALERT-Cloud-ServerProtection` targeting the `Microsoft.Compute/virtualMachines` asset tree.
+* >> Security Threat Mitigation: Configured real-time system listeners to track destructive operational signals (`Delete Virtual Machine`); unauthorized administrative destructive cycles immediately force automated alerts to active engineer consoles to prevent data asset liquidation.
