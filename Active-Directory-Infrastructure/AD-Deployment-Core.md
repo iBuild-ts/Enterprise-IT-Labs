@@ -107,3 +107,14 @@ Project Overview
 
   
 
+# Cloud Business Continuity & Disaster Recovery Infrastructure (Day 9 Log)
+
+# Task 1: Recovery Services Vault (RSV) Provisioning
+* >> Storage Architecture: Deployed a centralized cloud-native Recovery Services Vault titled `RSV-Corporate-Backups` nested within the unified `RG-Cloud-Infrastructure` parent resource container group.
+* >> Redundancy Optimization: Handled cost mitigation and credit boundaries by programmatically shifting the backup storage fabric from Geo-redundant (GRS) to Locally-redundant (LRS) while maintaining identical hands-on deployment matrices.
+
+# Task 2: Automated Retention Lifecycle & Standalone Policy Engineering
+* >> Data Protection Blueprint: Engineered an automated server lifecycle backup track policy container designated as `BKPOL-Cloud-ServerDaily` leveraging the modern Enhanced policy framework engine.
+* >> Frequency & Recovery Windows: Hard-coded a precise daily snapshot execution schedule timed at 11:00 PM W. Central Africa Standard Time to eliminate production bandwidth constraints, pairing it with an ironclad 30-day retention range lifecycle to defend against persistent ransomware vectors.
+* >> Architecture Bypass Integration: Successfully executed an engineering workaround by decoupling the policy from deployment wizard resource locks and deploying the framework standalone directly inside the vault's master schema data rows.
+
