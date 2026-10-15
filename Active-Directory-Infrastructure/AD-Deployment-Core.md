@@ -133,3 +133,16 @@ Project Overview
 # Task 3: Zero-Trust Activity Log Deletion Sentinel Policy
 * >> Alert Rule Construction: Compiled an automated structural activity monitoring policy framework titled `ALERT-Cloud-ServerProtection` targeting the `Microsoft.Compute/virtualMachines` asset tree.
 * >> Security Threat Mitigation: Configured real-time system listeners to track destructive operational signals (`Delete Virtual Machine`); unauthorized administrative destructive cycles immediately force automated alerts to active engineer consoles to prevent data asset liquidation.
+
+
+
+# Enterprise Linux System Architecture & Shell Environment Customization (Day 11 Log)
+
+# Task 1: Headless Linux Filesystem Mapping & Audit Operations
+* >> Distribution Verification: Accessed an enterprise-hardened cloud compute shell instance to audit local system metadata configuration configurations (`/etc/os-release`), identifying a production **Microsoft Azure Linux 3.0 (CBL-Mariner)** distribution tier runtime.
+* >> Diagnostic Telemetry Extraction: Traversed complex system logs within the `/var/log` core cluster space to analyze background infrastructure log queues (`audit`, `journal`, and `cloudshell_env.json`).
+
+# Task 2: Command-Line File Manipulation & Automation Script Rules
+* >> Directory Provisioning: Structured a dedicated server infrastructure folder repository tracking mechanism labeled `CorporateData` inside the home profile hierarchy space.
+* >> Terminal Content Packaging: Deployed an interactive terminal text utility editor (Nano) to construct an assets inventory manifest matrix (`inventory.txt`) natively with zero desktop graphical tools.
+* >> Shell Profile Calibration: Customized persistent user environment scripts (`~/.bashrc`) by programmatically appending a custom command-line alias shortcut rule (`gotodata`), establishing seamless workspace navigation automation across remote terminal sessions.
