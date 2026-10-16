@@ -146,3 +146,16 @@ Project Overview
 * >> Directory Provisioning: Structured a dedicated server infrastructure folder repository tracking mechanism labeled `CorporateData` inside the home profile hierarchy space.
 * >> Terminal Content Packaging: Deployed an interactive terminal text utility editor (Nano) to construct an assets inventory manifest matrix (`inventory.txt`) natively with zero desktop graphical tools.
 * >> Shell Profile Calibration: Customized persistent user environment scripts (`~/.bashrc`) by programmatically appending a custom command-line alias shortcut rule (`gotodata`), establishing seamless workspace navigation automation across remote terminal sessions.
+  >>
+
+  # Advanced Linux Access Control Hardening & Privilege Escalation (Day 12 Log)
+
+# Task 1: Octal Permission Matrix Implementation
+* >> Perimeter Hardening: Analyzed loose default file system permissions (`-rw-r--r--`) on localized environment data stores.
+* >> Access Control Hardening: Executed numerical mask mutations (`chmod 600`) against core asset data tracking nodes (`inventory.txt`), stripping away Group and World public read access rights down to an absolute zero-trust isolated configuration (`-rw-------`).
+
+# Task 2: Administrative Ownership Relocation & Sandbox Constraint Analysis
+* >> Kernel Constraint Bypass: Successfully diagnosed a low-privilege operational block (`Operation not permitted`) while conducting system ownership reassignments under a regular user space.
+* >> Platform Security Triage: Identified cloud-native virtualization restrictions (`sudo: The "no new privileges" flag is set`) preventing superuser escalation blocks inside multi-tenant sandbox container environments.
+* >> User-Space Documentation: Maintained environment logging by programmatically appending a system infrastructure audit note directly into the verified asset matrix (`inventory.txt`) via file append operators.
+
