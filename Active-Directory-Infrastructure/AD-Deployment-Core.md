@@ -159,3 +159,15 @@ Project Overview
 * >> Platform Security Triage: Identified cloud-native virtualization restrictions (`sudo: The "no new privileges" flag is set`) preventing superuser escalation blocks inside multi-tenant sandbox container environments.
 * >> User-Space Documentation: Maintained environment logging by programmatically appending a system infrastructure audit note directly into the verified asset matrix (`inventory.txt`) via file append operators.
 
+
+# Enterprise Package Management Optimization & User-Space Web Infrastructure (Day 13 Log)
+
+# Task 1: Package Repository Triage & Constraints Analysis
+* >> Package Manager Audit:  Evaluated system package metadata behaviors using `tdnf` inside an unprivileged Azure Linux environment.
+* >> Sandbox Dependency Isolation: Diagnosed explicit permission blocks (`Error 1601: You have to be root`) and local registry voids (`Error 1034: cache only is set, but no repo data found`) stemming from multi-tenant container sandbox security limitations.
+
+# Task 2: Python-Native HTTP Infrastructure Deployment
+* >> Architectural Workaround: Pivoted from privileged `httpd` package management daemons to a user-space runtime compilation workflow to bypass systemic root blocks.
+* >> Web Server Orchestration: Leveraged the native pre-installed Python3 engine to spin up an unprivileged headless web server instance on Port 8000.
+* >> Payload Redirection: Formatted and piped a custom HTML configuration document (`index.html`) directly into the `~/corporateWebHub/html` repository tree, successfully establishing web socket listeners completely headless.
+
