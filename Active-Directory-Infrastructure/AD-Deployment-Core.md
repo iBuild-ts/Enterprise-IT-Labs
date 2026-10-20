@@ -171,3 +171,15 @@ Project Overview
 * >> Web Server Orchestration: Leveraged the native pre-installed Python3 engine to spin up an unprivileged headless web server instance on Port 8000.
 * >> Payload Redirection: Formatted and piped a custom HTML configuration document (`index.html`) directly into the `~/corporateWebHub/html` repository tree, successfully establishing web socket listeners completely headless.
 
+
+# Linux Networking Architecture & Live Connection Triage (Day 14 Log)
+
+# Task 1: Interface Adapter Auditing & APIPA Fault Isolation
+* >> Telemetry Diagnostics: Executed low-level system adapter evaluations using the `ip a` command utility.
+* >> APIPA Leak Extraction: Successfully isolated a critical network failure condition on interface `eth1`, diagnosing a silent DHCP lease termination based on localized automatic private IP addressing parameters (`169.254.128.4/17`).
+
+# Task 2: DNS Name Resolution Validation & Triage
+* >> Syntax Error Analysis: Diagnosed a standard lookup system failure (`NXDOMAIN`) triggered by incorrect protocol character scheme inputs inside the lookup fields.
+* >> Authorized Namespace Translation: Re-calibrated lookup queries using pristine target name parameters (`nslookup azure.com`), successfully contacting the authoritative name server gateway (`168.63.129.16`) to extract and map active public cloud IP blocks over live internet sockets.
+
+
