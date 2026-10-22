@@ -183,3 +183,14 @@ Project Overview
 * >> Authorized Namespace Translation: Re-calibrated lookup queries using pristine target name parameters (`nslookup azure.com`), successfully contacting the authoritative name server gateway (`168.63.129.16`) to extract and map active public cloud IP blocks over live internet sockets.
 
 
+
+
+# Linux Bash Automation Engineering & Sandbox Scheduling Constraints (Day 15 Log)
+
+# Task 1: Bash Automation Scripting & Archive Optimization
+* >> Infrastructure Automation: Engineered a standalone, executable Bash backup shell utility script (`automated_backup.sh`) using variables, conditional path checking, and the `tar` compression optimization engine.
+* >> Case-Sensitivity Refactoring: Diagnosed and corrected file system extraction failures stemming from case-sensitive routing path discrepancies within the Linux kernel storage blocks.
+
+# Task 2: PAM Security Constraint Analysis & Foreground Scheduling Simulation
+* >> Platform Security Triage: Investigated explicit system scheduling restrictions (`crontab lockout via PAM configuration`) hard-coded into cloud sandbox architectures to block persistent daemon tasks.
+* >> Background Process Workaround: Overrode scheduling system boundaries by implementing a localized foreground background sleep loop simulation sequence (`(sleep 10 && ./script) &`) to successfully trigger headless automation tasks without system root or crontab privileges.
