@@ -194,3 +194,17 @@ Project Overview
 # Task 2: PAM Security Constraint Analysis & Foreground Scheduling Simulation
 * >> Platform Security Triage: Investigated explicit system scheduling restrictions (`crontab lockout via PAM configuration`) hard-coded into cloud sandbox architectures to block persistent daemon tasks.
 * >> Background Process Workaround: Overrode scheduling system boundaries by implementing a localized foreground background sleep loop simulation sequence (`(sleep 10 && ./script) &`) to successfully trigger headless automation tasks without system root or crontab privileges.
+  
+
+
+
+  # Linux Resource Metrics Observability & Process Control Architecture (Day 16 Log)
+
+# Task 1: Real-Time Performance Auditing & Storage Profiling
+* >> Telemetry Diagnostics: Executed real-time system hardware resource audits using the `top` table-of-processes utility to evaluate CPU states and memory allocation strings.
+* >> Capacity Matrix Analysis: Investigated filesystem storage block volumes using human-readable space monitoring tools (`df -h`) to verify active resource group space utilization.
+
+# Task 2: Automated Resource Recovery & Process Sentinel Engineering
+* >> Self-Healing Infrastructure: Engineered a standalone Bash resource sentinel script (`resource_sentinel.sh`) utilizing `pgrep` name matching and conditional process validation checks.
+* >> Kernel Memory Purging: Programmed automated process-killing sequences using strict signal-9 execution modifiers (`kill -9`) to capture background thread tokens and forcefully purge resource-hogging processes from the kernel memory queue headless.
+
