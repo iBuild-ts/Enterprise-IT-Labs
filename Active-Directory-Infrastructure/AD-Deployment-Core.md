@@ -208,3 +208,14 @@ Project Overview
 * >> Self-Healing Infrastructure: Engineered a standalone Bash resource sentinel script (`resource_sentinel.sh`) utilizing `pgrep` name matching and conditional process validation checks.
 * >> Kernel Memory Purging: Programmed automated process-killing sequences using strict signal-9 execution modifiers (`kill -9`) to capture background thread tokens and forcefully purge resource-hogging processes from the kernel memory queue headless.
 
+
+
+# Multi-User Identity Architecture & Sandbox Access Governance (Day 17 Log)
+
+# Task 1: Identity & Access Management (IAM) Privilege Triage
+* >> Command Auditing: Evaluated headless account provisioning commands (`groupadd` / `useradd`) inside an unprivileged Azure Linux terminal environment.
+* >> Sandbox Lockout Diagnosis: Isolated and analyzed multi-tenant container file-locking rejections (`groupadd: Permission denied; cannot lock /etc/group`) stemming from kernel-layer security barriers (`NO_NEW_PRIVS` flag configurations).
+
+# Task 2: User-Space Identity Ledger Emulation
+* >> Architectural Workaround: Bypassed global system-wide registration constraints by constructing a localized IAM folder infrastructure array (`~/IAM_Governance/groups`).
+* >> Profile Metadata Scripting: Programmed a user-space identity profile ledger (`zmusatest.profile`) via direct command-line redirection, successfully mapping out User, Role, Group, and Target Shell parameters completely headless.
