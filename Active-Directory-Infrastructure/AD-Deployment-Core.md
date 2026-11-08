@@ -255,3 +255,14 @@ Project Overview
 * >> Metric Extraction: Automated the collection of kernel runtime specifications (`uname -r`), disk usage metrics (`df -h`), and active thread process metrics (`ps aux | wc -l`) completely headless.
 * >> Validation & Execution: Successfully executed the pipeline across the system memory blocks, generating a pristine, structured server diagnostic manifest (`SysAudit_Report.txt`) within pure user-space boundaries.
 
+
+# Enterprise Relational Database Initialization & SQL Staging Workarounds (Day 21 Log)
+
+# Task 1: Environment Calibration & Shell Namespace Verification
+* >>Environment Redirection: Diagnosed and corrected terminal environment discrepancies by switching out of uncooperative Windows-style PowerShell contexts into the native Linux Bash interpreter core.
+* >> Platform Constraints Isolation: Identified the systemic removal of the `sqlite3` binary from the base cloud shell layer image configurations (`bash: sqlite3: command not found`).
+
+# Task 2: Python-Native Relational Engine Compilation & Data Injection
+* >> Architectural Workaround: Bypassed image layer resource stripping by weaponizing the native Python3 standard library modules to launch an interactive, user-space relational database core instance (`CorporateAssets.db`).
+* >> Schema Schema Automation: Compiled custom SQL data definitions via Python-wrapped query executions, successfully architecting a relational `Inventory` asset matrix table from the command line.
+* >> SQL Manipulation & Query Extraction: Ingested targeted multi-field datacenter infrastructure records and executed filtered conditional evaluation logic (`SELECT ... WHERE Status = 'Maintenance'`), accurately retrieving isolated network target strings headless.
