@@ -266,3 +266,15 @@ Project Overview
 * >> Architectural Workaround: Bypassed image layer resource stripping by weaponizing the native Python3 standard library modules to launch an interactive, user-space relational database core instance (`CorporateAssets.db`).
 * >> Schema Schema Automation: Compiled custom SQL data definitions via Python-wrapped query executions, successfully architecting a relational `Inventory` asset matrix table from the command line.
 * >> SQL Manipulation & Query Extraction: Ingested targeted multi-field datacenter infrastructure records and executed filtered conditional evaluation logic (`SELECT ... WHERE Status = 'Maintenance'`), accurately retrieving isolated network target strings headless.
+
+
+
+# Live Database Schema Evolution, Security Hardening & Disaster Recovery (Day 22 Log)
+
+# Task 1: Zero-Downtime DDL Schema Evolution & DML Record Updates
+* >>In-Place Schema Alteration: Evolved the live relational `Inventory` table schema via SQL DDL (`ALTER TABLE Inventory ADD COLUMN Region TEXT DEFAULT 'EastUS'`) without dropping existing production data rows.
+* >> Production Record Telemetry Update: Executed conditional SQL DML updates (`UPDATE Inventory SET Status = 'Active', Region = 'WestEurope'`) to transition server infrastructure states post-maintenance.
+
+# Task 2: Database Access Control Hardening & Portable SQL Exports
+* >> Zero-Trust File Permissions: Hardened the underlying SQLite binary datastore (`CorporateAssets.db`) using octal permissions (`chmod 600` -> `-rw-------`), eliminating unauthorized group and world read access.
+* >> Automated Disaster Recovery Dump: Engineered a Python-wrapped export routine (`conn.iterdump()`) to compile a portable, human-readable SQL transaction backup script (`CorporateAssets_backup.sql`).
