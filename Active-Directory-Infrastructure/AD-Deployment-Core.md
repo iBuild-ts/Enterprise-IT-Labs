@@ -278,3 +278,15 @@ Project Overview
 # Task 2: Database Access Control Hardening & Portable SQL Exports
 * >> Zero-Trust File Permissions: Hardened the underlying SQLite binary datastore (`CorporateAssets.db`) using octal permissions (`chmod 600` -> `-rw-------`), eliminating unauthorized group and world read access.
 * >> Automated Disaster Recovery Dump: Engineered a Python-wrapped export routine (`conn.iterdump()`) to compile a portable, human-readable SQL transaction backup script (`CorporateAssets_backup.sql`).
+  >>
+  >> 
+
+
+# SSL/TLS Cryptography & HTTPS Web Server Hardening (Day 23 Log)
+
+# Task 1: X.509 Certificate Generation & Private Key Hardening
+* >> Cryptographic Key Generation: Generated a 2048-bit RSA private key (`server.key`) and a 365-day self-signed X.509 certificate (`server.crt`) non-interactively via OpenSSL (`sha256WithRSAEncryption`) bound to `CN=stevetechsolutions.local`.
+* >> Zero-Trust Key Permissions: Locked down private key access permissions (`chmod 600 server.key` -> `-rw-------`) to prevent unauthorized local read access to cryptographic secrets.
+
+# Task 2: Encrypted TLS Web Socket Orchestration
+* >> User-Space HTTPS Deployment: Wrapped a Python HTTP server socket inside a TLS server context (`ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)`) using the generated certificate chain, establishing an encrypted web listener on Port 8443 completely headless.
